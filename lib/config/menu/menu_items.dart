@@ -37,6 +37,19 @@ const appMenuItems = <MenuItem>[
     title: 'Snackbar and Dialogs',
     subTitle: 'Indicadores en pantallas',
     link: '/snackbars',
-    icon: Icons.refresh_rounded,
+    icon: Icons.info_outlined,
+  ),
+  /* Menu item animated */
+  MenuItem(
+    title: 'Animated container',
+    subTitle: 'Stafull widget with animation',
+    link: '/animated',
+    icon: Icons.check_box_outline_blank_outlined,
+  ),
+  MenuItem(
+    title: 'UI Controls',
+    subTitle: 'Sliders, Switches, Radio, Checkbox',
+    link: '/ui-controls',
+    icon: Icons.settings_applications_outlined,
   ),
 ];
