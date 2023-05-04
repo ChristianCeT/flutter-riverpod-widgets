@@ -59,4 +59,28 @@ const appMenuItems = <MenuItem>[
     link: '/tutorial',
     icon: Icons.school_outlined,
   ),
+
+  /* infinitie scroll */
+  MenuItem(
+    title: 'Infinite scroll and pull',
+    subTitle: 'Infinite scroll and pull to refresh',
+    link: '/infinitie',
+    icon: Icons.list_alt_outlined,
+  ),
+
+  /* counter screen */
+  MenuItem(
+    title: 'Riverpod counter',
+    subTitle: 'Counter screen',
+    link: '/counter_screen',
+    icon: Icons.add,
+  ),
+
+  /* theme-changer */
+  MenuItem(
+    title: 'Theme changer',
+    subTitle: 'Change the theme of the app',
+    link: '/theme-changer',
+    icon: Icons.color_lens_outlined,
+  ),
 ];
